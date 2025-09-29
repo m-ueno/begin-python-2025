@@ -1,0 +1,3 @@
+#!/bin/bash -xeu
+
+uv run watchmedo shell-command --patterns="*.md;*.ipynb" --command='jupyter-book build .' .
